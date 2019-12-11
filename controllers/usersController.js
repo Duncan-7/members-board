@@ -50,7 +50,8 @@ exports.postSignup =
               return next(err);
             };
             console.log("user created")
-            res.redirect("/");
+
+            res.redirect('/users/login');
           });
         });
       }
