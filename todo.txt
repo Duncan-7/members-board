@@ -1,0 +1,14 @@
+Models
+
+Views:
+Board
+Create Message
+Membership
+404
+
+Routes:
+delete message
+get Membership
+post Membership
+
+

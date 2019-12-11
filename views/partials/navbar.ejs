@@ -1,0 +1,14 @@
+<ul>
+  <li class="left"><a href="/">Home</a></li>
+  <% if(currentUser) { %>
+  <li class="left"><a href="/messages/create">New Message</a></li>
+  <li class="left"><a href="/users/member">Become A Member</a></li>
+  <li class="right"><a href="/users/logout">Logout</a></li>
+  <%} else {%>
+  <li class="right"><a  href="/users/signup">Sign Up</a></li>
+  <li class="right"><a href="/users/login">Log In</a></li>
+  <%}%>
+</ul>
+
+
+
